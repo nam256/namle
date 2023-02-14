@@ -1,0 +1,74 @@
+body {
+	width: auto;
+	height:1000px;
+
+}
+
+.header{
+	width: 100%;
+	height:100px;
+	background-image: url("https://hcmussh.edu.vn/img/header.jpg?t=20171529"); background-size: cover; background-position: center center; background-repeat: no-repeat; min-height: 12vw;
+}
+
+.menu{
+	width: 100%;
+	height:50px;
+	display: flex;
+}
+.menu div {
+	width: 20%;
+	border-right: solid 1px white;
+	padding: 10px;
+	margin-top:10px;
+	background-color: blue;
+	color: white;
+	font-weight: bold;
+}
+.main{
+	width: 100%;
+	height:700px;
+
+	display: flex;
+	margin-top: 10px;
+}
+.left-main {
+	width: 30%;
+	height:700px;
+}
+.left-main div {
+	width: 80%;
+	height: 30px;
+	background-color: blue;
+	border-bottom: solid 1px white;
+	padding: 5px 0px 0px 20px;
+	color: white;
+}
+
+.right-main {
+	width: 68%;
+	height:700px;
+	margin-left: 10px;
+}
+.footer{
+	width: 100%;
+	height:150px;
+	display: flex;
+	background-color: blue;
+}
+.footer .col {
+	width: 25%;
+	padding: 15px;
+	color: white;
+	font-size: 16px;
+}
+.footer .li-title{
+	list-style: none;
+	font-size: 25px;
+	text-decoration: underline;
+	margin-left: 10px;
+}
+.footer .col ul li{
+	list-style-type: circle;
+	margin-top: 5px;
+}
+
